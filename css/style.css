@@ -1,0 +1,99 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.titles {
+  float: right;
+}
+
+.name {
+  font-weight: 100;
+  font-size: 450%;
+  color: #BCBBBB;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 150%;
+  color: #666666;
+}
+
+.slashes {
+  font-weight: 700;
+  color: #0066FF;
+}
+
+.main {
+  border-radius: 14px;
+  margin: 0 auto;
+}
+
+hr {
+  background: #BCBBBB;
+  height: .25em;
+}
+
+.finderSeries {
+  margin-top: 3em;
+}
+
+.featured {
+  margin-top: 1em;
+}
+
+.featured .pics {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+}
+
+.navbar {
+  display: inline-block;
+  border: 1px solid #BCBBBB;
+  margin: 0 auto;
+  margin: 3em;
+  width: 30em;
+  height: 3em;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+  position: relative;
+  top: 1em;
+}
+
+.navbar li a {
+  color: #666666;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.navbar li a:hover {
+  font-weight: bold;
+  color: #0066FF;
+}
+
