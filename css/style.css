@@ -10,7 +10,11 @@ body {
 }
 
 .logo {
-  margin-top: 20px;
+  margin-top: 2em;
+}
+
+.logo img {
+  margin-left: 3.6em;
 }
 
 .titles {
@@ -50,6 +54,11 @@ hr {
 
 .finderSeries {
   margin-top: 3em;
+  color: #BCBBBB;
+}
+
+.finderSeries p {
+  color: #666666;;
 }
 
 .featured {
@@ -67,7 +76,7 @@ hr {
   display: inline-block;
   border: 1px solid #BCBBBB;
   margin: 0 auto;
-  margin: 3em;
+  margin: 5%;
   width: 30em;
   height: 3em;
   -webkit-border-radius: 14px;
