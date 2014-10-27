@@ -111,31 +111,44 @@ hr {
   color: #0066FF;
 }
 
-/* Mobile styles go first, without media queries. */
-
-@media only screen and (min-width: 321px) {
-    /* Larger mobile styles (wider than 320 pixels) */
+@media only screen and (max-width: 996px) {
+  .fPics img {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
-@media only screen and (min-width: 600px) {
-    /* Tablet styles (wider than 600 pixels) */
-}
-
-@media all and (max-width: 996px) {
-    /* Smaller laptops */
-    .fPics img {
-      width: 100% !important;
-      text-align: center;
-    }
+@media only screen and (max-width: 760px) {
+  .name {
+    font-size: 400%;
+  }
 
 }
 
-@media only screen and (min-width: 1024px) {
-    /* Large laptop styles (wider than 1024 pixels) */
+@media only screen and (max-width: 690px) {
+  .name {
+    font-size: 350%;
+  }
+
 }
 
-@media only screen and (min-width: 1140px) {
-    /* Desktop styles (wider than 1140 pixels) */
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 250%;
+  }
+
+  .fPics img {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 420px) {
+  .logo img {
+    display: none;
+  }
 }
 
 
