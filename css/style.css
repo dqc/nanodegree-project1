@@ -2,6 +2,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+p {
+  color: #B2B2B2 !important;
+  font-weight: 600;
+}
+
+
 img {
   max-width: 100%;
   height: auto !important;
@@ -29,7 +35,7 @@ img {
 .name {
   font-weight: 100;
   font-size: 450%;
-  color: #BCBBBB;
+  color: #2FAEB2;
   -webkit-animation-duration: 2s;
   -moz-animation-duration: 2s;
   -o-animation-duration: 2s;
@@ -43,8 +49,8 @@ img {
 }
 
 .slashes {
-  font-weight: 700;
-  color: #0066FF;
+  font-weight: 400;
+  color: #2FAEB2;
 }
 
 .main {
@@ -53,17 +59,17 @@ img {
 }
 
 hr {
-  background: #BCBBBB;
+  background: #2FAEB2;
   height: .25em;
 }
 
 .finderSeries {
   margin-top: 3em;
-  color: #BCBBBB;
+  color: #2FAEB2;
 }
 
 .finderSeries p {
-  color: #666666;;
+  color: #666666;
 }
 
 .featured {
@@ -75,6 +81,10 @@ hr {
   -moz-border-radius: 14px;
   -o-border-radius: 14px;
   border-radius: 14px;
+}
+
+.featured h3 {
+  color: #2FAEB2;
 }
 
 .navbar {
@@ -108,7 +118,7 @@ hr {
 
 .navbar li a:hover {
   font-weight: bold;
-  color: #0066FF;
+  color: #2FAEB2;
 }
 
 @media only screen and (max-width: 996px) {
@@ -137,11 +147,6 @@ hr {
   .name {
     font-size: 250%;
   }
-
-  .fPics img {
-    display: inline-block;
-    width: 90%;
-    margin: 0 auto;
 
 }
 
