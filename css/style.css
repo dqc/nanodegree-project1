@@ -13,13 +13,6 @@ img {
   height: auto !important;
 }
 
-.container {
-  -webkit-animation-duration: 3s;
-  -moz-animation-duration: 3s;
-  -o-animation-duration: 3s;
-  animation-duration: 3s;
-}
-
 .logo {
   margin-top: 2em;
 }
@@ -36,10 +29,6 @@ img {
   font-weight: 100;
   font-size: 450%;
   color: #2FAEB2;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  -o-animation-duration: 2s;
-  animation-duration: 2s;
 }
 
 .title {
